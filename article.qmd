@@ -1,0 +1,91 @@
+---
+title: "Journal Article Title"
+format: 
+  docx:
+    number-sections: true
+    author: "Anonymous"
+    reference-doc: custom-reference-doc.docx
+    link-citations: true
+bibliography: references.bib
+csl: jfs-vancouver.csl
+---
+
+# Abstract {.unnumbered}
+
+The abstract should be no more than 250 words. JFS uses unstructured abstracts; however, the abstract should include the following – background, brief description of methods and results (give specific data and their statistical significance, if possible), and conclusions. Emphasize new and important aspects of the study or observations. References should be avoided, but if essential, then cite the author(s) and year(s). Please also avoid the use of uncommon initials. The word Abstract should be in upper/lowercase letters and bolded.
+
+**KEYWORDS**: minimum, six, keywords, key phrases, most important words, allow article to be found by search engines
+
+{{< pagebreak >}} 
+
+# Highlights {.unnumbered}
+
+* Highlights should concisely convey how your manuscript impacts forensic science, now or in the future. 
+* They should describe the essence of the research and include the important methodological insights (especially if novel) and/or results and conclusions.
+* It is vital to keep both your readers and your research firmly in mind as you write your highlights. 
+* Do not directly restate the abstract or summarize the main findings.
+* Please include 3 to 5 bullet points (maximum 100 characters per bullet point, including spaces).
+
+{{< pagebreak >}}
+
+# INTRODUCTION {#sec-introduction}
+
+In JFS, the text component of the manuscript begins with an introduction and an "Introduction" heading. State the purpose of the article and summarize the rationale for the study or observation. Give only strictly pertinent references, and do not review referenced articles extensively or include data or conclusions from the work being reported.
+
+## Cross-referencing and citations
+
+**Example of cross-referencing sections**: @sec-methods is the Methods section, @sec-results is the Results section, and @sec-discussion is the Discussion section.
+
+**Example of cross-referencing a table**: @tbl-dataset-summary is a table.
+
+**Example of cross-referencing a figure**: @fig-lr-verbal-interpretation is a figure.
+
+**Example journal article in-line citation**: @blakey2018fate
+
+**Example book citation**: @colson1986sports
+
+# METHODS {#sec-methods}
+
+Describe your selection of the observational or experimental subjects (human subjects, patients or laboratory animals, including controls) clearly. Identify the methods, equipment (manufacturer's name and address in parentheses), and procedures in sufficient detail to allow other workers to reproduce the results. Give references to established methods, including statistical methods (see below); provide references and brief descriptions for methods that have been published but are not well known; describe new or substantially modified methods, give reasons for using them, and evaluate their limitations. Identify precisely all drugs and chemicals used, including generic name(s), dose(s), and route(s) of administration. Generally, avoid the overuse of subheadings in the Methods section. Describe the methods and materials in narrative style, not in the style of a laboratory procedure handout.
+
+Describe the data analysis methods with enough detail to enable a knowledgeable reader with access to the original data to verify the reported results. When possible, quantify findings and present them with appropriate indicators of measurement error or uncertainty (such as confidence intervals).  Methods should be validated, and figures of merit provided as appropriate to the study.
+
+Avoid sole reliance on statistical hypothesis testing, such as the use of p values, which fails to convey important quantitative information. Discuss eligibility of experimental subjects. Give details about randomization. Describe the methods for and success of any blinding of observations. Report treatment complications. Give numbers of observations. References for study design and statistical methods should be to standard works (with pages stated) when possible, rather than to papers in which the designs or methods were originally reported.
+
+Put a general description of methods in the Methods section. When data are summarized in the Results section, specify the statistical methods used to analyze them. Restrict tables and figures to those needed to explain the argument of the paper and to assess its support. Use graphs as an alternative to tables with many entries; do not duplicate data in graphs and tables.
+
+Avoid improperly or informally defined terms in statistics, such as "random" (which implies a randomizing device), "normal," "significant," "correlations," and "sample." Define statistical terms, abbreviations and most symbols.
+
+# RESULTS {#sec-results}
+
+Present your results in logical sequence in the text, tables and figures. Do not repeat in the text all the data in the tables or illustrations; emphasize or summarize only important observations.
+
+# DISCUSSION {#sec-discussion}
+
+Emphasize the new and important aspects of the study and the conclusions that follow from them. Do not repeat in detail data or other material given in the Introduction or the Results section. Include in the Discussion section the implications of the findings and their limitations, including implications for future research. Relate the observations to other relevant studies. Link the conclusions with the goals of the study, but avoid unqualified statements and conclusions not completely supported by your data. Avoid claiming priority and alluding to work that has not been completed. State new hypotheses when warranted, but clearly label them as such. Recommendations, when appropriate, may be included.
+
+In shorter manuscripts, such as those intended to be Technical Notes or Case Reports, the Results and Discussion sections should be combined.
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
+
+# TABLES {.unnumbered}
+
+|Col1 | Col2 | $K$ |
+|------|------|------|
+| A    | B    | C    |
+| E    | F    | G    |
+| A    | G    | G    |
+: Summary of the number of users, the number of event categories ($K$), and the event category definitions for the email and text datasets used in the experiments. {#tbl-dataset-summary}
+
+
+{{< pagebreak >}}
+
+
+# FIGURE LEGENDS {.unnumbered}
+
+![Here is an example of how to include a figure and a caption. Figures need to be uploaded separately and only the legends should be in the final document. After compiling, you can just delete the figures for the final document.](figures/lr-verbal-interpretation.png){#fig-lr-verbal-interpretation}
+
