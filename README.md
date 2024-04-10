@@ -5,4 +5,4 @@ The author guidelines for the journal can be found here [https://onlinelibrary.w
 
 This template should be helpful for preparing submissions when there are a lot of equations that need to be included (rather than having to type them out in the Word document directly).
 
-The CSL file was modified from Zotero's Vancouver citation style available [http://www.zotero.org/styles/vancouver](here). Note that the original style file from Zotero is licensed under the CC BY-SA 3.0 ([https://creativecommons.org/licenses/by-sa/3.0/](license link)), which requires that the derivative CSL file used here also use the same license.
+The CSL file was modified from Zotero's Vancouver citation style available [here](http://www.zotero.org/styles/vancouver). Note that the original style file from Zotero is licensed under the CC BY-SA 3.0 ([license link](https://creativecommons.org/licenses/by-sa/3.0/)), which requires that the derivative CSL file used here also use the same license.
