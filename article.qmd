@@ -40,9 +40,15 @@ In JFS, the text component of the manuscript begins with an introduction and an 
 
 **Example of cross-referencing a figure**: @fig-lr-verbal-interpretation is a figure.
 
+**Example of cross-referencing an equation**: @eq-lr is an equation.
+
 **Example journal article in-line citation**: @blakey2018fate
 
 **Example book citation**: @colson1986sports
+
+
+## Equation example
+$$\text{LR} = \frac{P(E | H_p, I)}{P(E|H_d, I)}$${#eq-lr}
 
 # METHODS {#sec-methods}
 
